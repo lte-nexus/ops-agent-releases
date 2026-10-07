@@ -11,7 +11,7 @@ Repo **público solo de binarios**. El código es privado (`lte-nexus/ops-statio
 | `v0.1.1` | `ops-agent-linux.tar.gz` | `ops-agent.exe` | `ops-agent` |
 | `v0.1.2` | los tres otra vez | | |
 | `v0.1.3` | los tres otra vez | | |
-| `v0.1.4` | Linux con `trace follow` / `trace off`. Windows y macOS siguen los de v0.1.3 | | |
+| `v0.1.4` | Linux y macOS (arm64) con `trace follow` / `trace off`. Windows sigue el de v0.1.3 | | |
 
 El portal (RRHH → Estaciones) apunta a **una** versión. Al publicar `v0.1.4` se cambian las tres URLs juntas.
 
