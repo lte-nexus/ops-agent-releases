@@ -15,6 +15,8 @@ Repo **público solo de binarios**. El código es privado (`lte-nexus/ops-statio
 
 El portal (RRHH → Estaciones) apunta a **una** versión. Al publicar `v0.1.4` se cambian las tres URLs juntas.
 
+El mismo `ops-agent-linux.tar.gz` trae el agente de cada PC (`scripts/install-desk.sh`). No hay un cuarto archivo. En el portal se baja desde la tarjeta **Agente de cada PC**. El tag publicado tiene que incluir ese script; un Release anterior no lo trae.
+
 Cómo sale un Release: tag `v*` en el repo privado → CI arma Linux + Windows + macOS → este repo.
 
 Baja desde [Releases](https://github.com/lte-nexus/ops-agent-releases/releases) o desde el portal. No abras PRs de código aquí.
